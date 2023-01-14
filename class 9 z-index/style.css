@@ -1,0 +1,61 @@
+.a, .b, .c, .d{
+    width: 100px;
+    height: 80px;
+    /* because of absoulte it will be overlapping (1)*/
+    /* position: absolute; */
+
+    /* (2)  */
+    position: relative;
+}
+
+.a{
+    background-color: red;
+    /* left: 10px;
+    z-index: 3; */
+    
+}
+.b{
+    background-color: green;
+    /* left: 20px; */
+    /* if want to b above of all box  (1)*/
+    /* z-index: 1; */
+
+    /* (2)  */
+    top: -70px;
+    /* bring b on the top the give index 1  */
+    z-index: 1;
+}
+.c{
+    background-color: yellow;
+    /* left: 30px; */
+    /* (1) if i want to get C above b so we need to give bigger integer number it means it will come top not in lower.  */
+    /* z-index: 2; */
+
+    /* (2)  */
+    top: -150px;
+    /* if want to bring c or any element to top then give the more index number  */
+    z-index: 2;
+}
+.d{
+    background-color: blue;
+    /* left: 40px; */
+
+    /* (2)  */
+    top: -229px;
+}
+h1{
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+}
+
+p{
+  z-index: 4;
+  border-color: lightcoral;
+  position: absolute;
+}
+
+.img{
+     position: absolute;
+     z-index: -1;
+}

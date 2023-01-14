@@ -1,0 +1,236 @@
+*{
+    height: ;
+    top: 0px;
+    background-color: black;
+}
+
+.side-bar{
+    position: absolute;
+width: 333px;
+height: 620px;
+left: 21px;
+top: 19px;
+background-color: rgba(59, 54, 54, 0.699);
+ border-radius: 50px;
+}
+
+.side-bar img{
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 63px;
+    top: 24px;
+    border-radius: 1500px;
+    border: 2px solid #333333;
+    box-sizing: border-box;
+}
+
+.side-bar h5{
+    position: absolute;
+    width: 132px;
+    height: 36px;
+    left: 115px;
+    top: 200px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    background-color: rgb(39 39 39 / 70%);
+}
+
+.bln{
+    position: relative;
+    left: 130px;
+    top: 75px;
+    font-weight: 400;
+   font-size: 15px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(39 39 39 / 70%);
+}
+
+.contact{
+    position: relative;
+    top: 90px;
+    width: 280px;
+    left: 30px;
+    margin-right: 4px;
+    height: 45px;
+    border-radius: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.contact span{
+    position: relative;
+    top: 12px;
+    bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.avengers{
+    position: relative;
+    top: 110px;
+    width: 280px;
+    left: 30px;
+    margin-right: 4px;
+    height: 45px;
+    border-radius: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.avengers span{
+    position: relative;
+    top: 12px;
+    align-items: center;
+}
+
+.help{
+    position: relative;
+    top: 130px;
+    width: 280px;
+    left: 30px;
+    margin-right: 4px;
+    height: 45px;
+    border-radius: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.help span{
+    position: relative;
+    top: 12px;
+    align-items: center;
+}
+
+.left-bar1{
+ position: absolute;
+ width: 950px;
+ height: 320px;
+ top: 19px;
+ left: 380px;
+ background-color: rgba(59, 54, 54, 0.699);
+ border-radius: 50px;
+}
+
+.left-bar1 h5{
+    position: relative;
+    color: white;
+    background-color: rgba(41, 38, 38, 0.699);
+    height: 2px;
+    top: 3px;
+    left: 50px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.left-box{
+    position: absolute;
+    background-color: rgba(41, 38, 38, 0.699);
+    height: 150px;
+    top: 60px;
+    width: 350px;
+    left: 50px;
+}
+
+.left-box p{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+        display: flex;
+        position: relative;
+        font-size: 15px;
+        height: 200px;
+        background-color: rgba(41, 38, 38, 0.699);
+}
+
+.left-box a{
+    position: relative;
+    color: rgba(255, 255, 255, 0.5);
+    top: -10px;
+    background-color: rgba(41, 38, 38, 0.699);
+}
+
+.left-bar1 img{
+    position: absolute;
+    width: 490px;
+    left: 420px;
+    height: 230px;
+    top: 60px;
+    border-radius: 20px;
+}
+
+
+.left-bar2{
+    position: absolute;
+    width: 950px;
+    height: 260px;
+    top: 380px;
+    left: 380px;
+    background-color: rgba(59, 54, 54, 0.699);
+    border-radius: 50px;
+   }
+
+
+   .left-bar2 h5{
+    position: relative;
+    color: white;
+    background-color: rgba(41, 38, 38, 0.699);
+    height: 2px;
+    top: 2px;
+    left: 50px;
+    font-size: 20px;
+    width: 200px;
+}
+
+ table{
+    position: absolute;
+    border-collapse: collapse;
+    background-color: rgba(41, 38, 38, 0.699);
+    height: 150px;
+    top: 85px;
+    width: 850px;
+    left: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+}
+ 
+
+thead{
+    height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+th{
+    position: relative;
+    background-color: rgba(59, 54, 54, 0.699);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+}
+#th_2{
+    text-align: left;
+    left: 20px;
+}
+#th_3{
+    text-align: left;
+    left: 20px;
+   
+}
+td{
+    background-color: rgba(59, 54, 54, 0.699);
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom-right-radius: 10px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.td{
+    text-align: center;
+}
+#td{
+    left: 50px;
+}
+table tr:last-child td:last-child{
+    border-radius: 10px;
+}

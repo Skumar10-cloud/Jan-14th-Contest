@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('./variable.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--primary-font);
+    font-weight: var(--normal-font-weight);
+    background-color: var(--bg-white);
+}
+
+.learn-more-btn{
+    background-color: var(--bg-black);
+    font-size: 18px;
+    font-weight: var(--bold-font-weight);
+    color: var(--text-white) !important;
+    padding: 12px 29px !important;
+    border-radius: 10px;
+    border: 2px solid var(--bg-black);
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-extra-header{
+    color: var(--text-dark-gray) !important;
+    background-color: transparent;
+    border: 2px solid var(--text-dark-gray);
+    line-height: 1;
+}
+.header_wrapper .navbar{
+    background-color: var(--bg-white);
+}
+
+
+.header_wrapper .navbar-brand img{
+                max-width: 210px;
+                height: auto;
+}
+
+.header_wrapper .menu-navbar-nav{
+    width: 70%;
+}
+
+.header_wrapper .nav-item{
+    margin: 0 10px;
+}
+
+.header_wrapper .nav-item .nav-link{
+    font-weight: var(--bold-font-weight);
+    font-size: 18px;
+    color: var(--text-dark-gray);
+    line-height: 1;
+}
+
+/* .active is use to make the color green or other whrn that link is active  */
+
+.header_wrapper .nav-item .nav-link.active{
+    color: var(--text-dark-green);
+}
+
+.banner_wrapper{
+    width: 100%;
+    padding: 100px 0 125px;
+    background: url(./images/bg.img);
+    /* img cover whole screen  */
+    background-size: cover;
+}
+
+.banner_wrapper .header-img-section img{
+            width: 100%;
+            /* ease in out means animation is slow in starting then fast then at the end it'll be slow */
+            animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+            /* when transition timing is 0% then image reaches to top of y-axis  */
+            0%{
+                transform: translateY(0px);
+            }
+            50%{
+                transform: translateY(20px);
+            }
+            100%{
+                transform: translateY(0px);
+            }
+
+}

@@ -1,0 +1,29 @@
+.section-1{
+    background: url('../module/pexels-photo-3048527.webp') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar-wrapper{
+    height: 5rem;
+    border-bottom: 2px solid #aaa;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+}
+.nav-list-item{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    height: 8rem;
+}

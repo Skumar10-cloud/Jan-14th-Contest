@@ -1,0 +1,11 @@
+/* .accordion-flush .accordion-item{
+    border: 0px;
+    margin-top: 25px;
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+} */
+
+.navbar{
+    height: 70px;
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+    background-color: aquamarine;
+}
